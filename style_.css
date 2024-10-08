@@ -1,11 +1,159 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
 :root {
     --Branco-cor-: #FFFFFF;
     --Cinza-cor-: #c0c0c0;
     --Botao-azul-: #167df7;
-    --cor-de-fundo:  #000000;
-}
-.body {
-
- background-color: var(--cor-de-fundo);
+    --cor-de-fundo: #000000;
+    --font-inter: 'Inter';
 
 }
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--Branco-cor-);
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 400;
+
+ }   
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.principal {
+    color: var(--Branco-cor-);
+    background-image: url(Minhas\ Imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+
+}
+.primeiro{
+    background-color: var(--Botao-azul-);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--Branco-cor-);
+    display:block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 1em;
+    text-align: center;   
+
+}
+.segundo {
+    background-color: transparent;
+    border: 2px solid var(--Branco-cor-);
+
+}
+.titulo__principal {
+    font-size: 28px;
+    font-weight: 700;
+}
+.imagem__principal {
+    margin: 1em 0 2em 0;
+
+}
+.div__principal {
+    margin: 0 6em;
+
+}
+.container {
+    font-size: 12px;
+    color: var(--Cinza-cor-);
+
+}
+.imagem__segundaria {
+    width: 80%;
+
+}
+.secundaria {
+    align-items: center;  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;    
+
+
+}
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.descricao__container {
+    font-size: 16px;
+
+}
+.terciaria{
+    grid-template-columns: 50% 50%;
+    display: grid;
+    padding: 10%;
+    align-items: center;
+
+
+}
+.descricao__teciaria {
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+
+}
+.botao__terciario {
+    margin-top: 1em;
+    padding: 2em;
+    display: inline-block;
+
+}
+.imagem__terciaria {
+  align-items: center;
+  width: 80%;
+  padding: 15%;
+
+}
+.quarta__section{
+    padding: 10%;
+    margin: 50px; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
+}
+.quarta__imagem{
+    width: 80%;
+
+}
+.titulo__QuartaPagina{
+    font-size: 48px;
+
+}
+.Quarta__descricao{
+    font-size: 16px;
+
+}
+.dispositivos {
+    margin: 15%;
+    text-align:  center;
+
+}
+.dispositivos__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 5em 0;
+}
+.titulo__principal__dispositivo {
+    text-align: center;
+    font-size: 48px;
+    color: var(--Branco-cor-);
+    
+}
+.lista__item {
+    font-size: 32px;
+    color: var(--Branco-cor-);
+}
+
