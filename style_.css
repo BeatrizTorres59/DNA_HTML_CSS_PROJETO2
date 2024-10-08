@@ -6,7 +6,6 @@
     --Botao-azul-: #167df7;
     --cor-de-fundo: #000000;
     --font-inter: 'Inter';
-
 }
 body {
     background-color: var(--cor-de-fundo);
@@ -77,7 +76,6 @@ body {
     grid-template-columns: 50% 50%;
     padding: 10%;    
 
-
 }
 .descricao__titulo {
     font-size: 48px;
@@ -93,8 +91,7 @@ body {
     display: grid;
     padding: 10%;
     align-items: center;
-
-
+    
 }
 .descricao__teciaria {
     font-size: 16px;
@@ -154,6 +151,7 @@ body {
 }
 .lista__item {
     font-size: 32px;
+    
     color: var(--Branco-cor-);
 }
 
