@@ -6,6 +6,7 @@
     --Botao-azul-: #167df7;
     --cor-de-fundo: #000000;
     --font-inter: 'Inter';
+
 }
 body {
     background-color: var(--cor-de-fundo);
@@ -22,7 +23,7 @@ body {
 }
 .principal {
     color: var(--Branco-cor-);
-    background-image: url(Minhas\ Imagens/background.png);
+    background-image: url(Minhas\ Imagens/fotonova.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
@@ -58,7 +59,7 @@ body {
 
 }
 .div__principal {
-    margin: 0 6em;
+    margin: 0 4em;
 
 }
 .container {
@@ -91,7 +92,7 @@ body {
     display: grid;
     padding: 10%;
     align-items: center;
-    
+
 }
 .descricao__teciaria {
     font-size: 16px;
@@ -113,7 +114,7 @@ body {
 }
 .quarta__section{
     padding: 10%;
-    margin: 50px; 
+    margin: 40px; 
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
@@ -132,7 +133,7 @@ body {
 
 }
 .dispositivos {
-    margin: 15%;
+    margin: 20%;
     text-align:  center;
 
 }
@@ -141,17 +142,48 @@ body {
     list-style-type: none;
     justify-content: center;
     padding: 0;
-    margin: 5em 0;
+    margin: 4em 0;
 }
 .titulo__principal__dispositivo {
     text-align: center;
     font-size: 48px;
     color: var(--Branco-cor-);
     
-}
+}   
 .lista__item {
     font-size: 32px;
-    
     color: var(--Branco-cor-);
 }
+.rodape {
+    display: grid;
+    color: var(--Branco-cor-);
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+    }
+.ultima__imagem {
+    width: 102px;
+    padding: 15px;
+}
+.ultima__lista {
+    display: flex;
+    font-size: 16px;
+    list-style-type: none;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.descricao__elemento {
+    color: var(--Branco-cor-);
 
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+.ultima__descricao {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+
+
+}
