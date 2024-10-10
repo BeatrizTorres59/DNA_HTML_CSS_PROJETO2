@@ -33,7 +33,7 @@ body {
     align-items: center;
 
 }
-.primeiro{
+.botao__principal{
     background-color: var(--Botao-azul-);
     border-radius: 10px;
     padding: 1em;
@@ -45,7 +45,7 @@ body {
     text-align: center;   
 
 }
-.segundo {
+.segundoBotao__principal {
     background-color: transparent;
     border: 2px solid var(--Branco-cor-);
 
@@ -62,51 +62,51 @@ body {
     margin: 0 4em;
 
 }
-.container {
+.descricao__principal {
     font-size: 12px;
     color: var(--Cinza-cor-);
 
 }
-.imagem__segundaria {
+.segunda__imagem {
     width: 80%;
 
 }
-.secundaria {
+.segunda__section {
     align-items: center;  
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 10%;    
 
 }
-.descricao__titulo {
+.segundo__titulo {
     font-size: 48px;
     font-weight: 700;
 
 }
-.descricao__container {
+.segunda__descricao {
     font-size: 16px;
 
 }
-.terciaria{
+.terceira__section{
     grid-template-columns: 50% 50%;
     display: grid;
     padding: 10%;
     align-items: center;
 
 }
-.descricao__teciaria {
+.terceira__descricao {
     font-size: 16px;
     font-weight: 600;
     align-items: center;
 
 }
-.botao__terciario {
+.terceiro__botao {
     margin-top: 1em;
     padding: 2em;
     display: inline-block;
 
 }
-.imagem__terciaria {
+.terceira__imagem {
   align-items: center;
   width: 80%;
   padding: 15%;
@@ -124,27 +124,28 @@ body {
     width: 80%;
 
 }
-.titulo__QuartaPagina{
+.quarto__titulo{
     font-size: 48px;
 
 }
-.Quarta__descricao{
+.quarta__descricao{
     font-size: 16px;
 
 }
-.dispositivos {
+.quinta__section {
     margin: 20%;
     text-align:  center;
 
 }
-.dispositivos__lista {
+.lista__principal {
     display: flex;
     list-style-type: none;
     justify-content: center;
     padding: 0;
     margin: 4em 0;
+
 }
-.titulo__principal__dispositivo {
+.quinto__titulo {
     text-align: center;
     font-size: 48px;
     color: var(--Branco-cor-);
@@ -153,6 +154,7 @@ body {
 .lista__item {
     font-size: 32px;
     color: var(--Branco-cor-);
+    
 }
 .rodape {
     display: grid;
@@ -160,12 +162,14 @@ body {
     margin: 50px;
     justify-content: center;
     text-align: center;
-    }
-.ultima__imagem {
+
+ }
+.sexta__imagem {
     width: 102px;
     padding: 15px;
+
 }
-.ultima__lista {
+.sexta__lista {
     display: flex;
     font-size: 16px;
     list-style-type: none;
@@ -175,15 +179,447 @@ body {
 }
 .descricao__elemento {
     color: var(--Branco-cor-);
-
     text-decoration: none;
     text-align: center;
     padding: 15px;
+
 }
-.ultima__descricao {
+.sexta__descricao {
     padding: 10px;
     text-align: center;
     font-size: 14px;
+}
+.sexta__lista a:hover {
+    color: var(--Botao-azul-);
 
+}
+.sexta__lista a:active {
+    color: #000080;
+
+}
+.botao__principal:hover {
+    color: var(--Botao-azul-);
+    background-color: var(--Branco-cor-);
+
+}
+.terceiro__botao :hover {
+    color: var(--Botao-azul-);
+    background-color: var(--Branco-cor-s);
+
+}@import url(https://fonts.google.com/specimen/Inter);
+
+:root {
+    --Branco-cor-: #FFFFFF;
+    --Cinza-cor-: #c0c0c0;
+    --Botao-azul-: #167df7;
+    --cor-de-fundo: #000000;
+    --font-inter: 'Inter';
+
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--Branco-cor-);
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 400;
+
+ }   
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.principal {
+    color: var(--Branco-cor-);
+    background-image: url(Minhas\ Imagens/fotonova.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+
+}
+.botao__principal{
+    background-color: var(--Botao-azul-);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--Branco-cor-);
+    display:block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 1em;
+    text-align: center;   
+
+}
+.segundoBotao__principal {
+    background-color: transparent;
+    border: 2px solid var(--Branco-cor-);
+
+}
+.titulo__principal {
+    font-size: 28px;
+    font-weight: 700;
+}
+.imagem__principal {
+    margin: 1em 0 2em 0;
+
+}
+.div__principal {
+    margin: 0 4em;
+
+}
+.descricao__principal {
+    font-size: 12px;
+    color: var(--Cinza-cor-);
+
+}
+.segunda__imagem {
+    width: 80%;
+
+}
+.segunda__section {
+    align-items: center;  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;    
+
+}
+.segundo__titulo {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.segunda__descricao {
+    font-size: 16px;
+
+}
+.terceira__section{
+    grid-template-columns: 50% 50%;
+    display: grid;
+    padding: 10%;
+    align-items: center;
+
+}
+.terceira__descricao {
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+
+}
+.terceiro__botao {
+    margin-top: 1em;
+    padding: 2em;
+    display: inline-block;
+
+}
+.terceira__imagem {
+  align-items: center;
+  width: 80%;
+  padding: 15%;
+
+}
+.quarta__section{
+    padding: 10%;
+    margin: 40px; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
+}
+.quarta__imagem{
+    width: 80%;
+
+}
+.quarto__titulo{
+    font-size: 48px;
+
+}
+.quarta__descricao{
+    font-size: 16px;
+
+}
+.quinta__section {
+    margin: 20%;
+    text-align:  center;
+
+}
+.lista__principal {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 4em 0;
+
+}
+.quinto__titulo {
+    text-align: center;
+    font-size: 48px;
+    color: var(--Branco-cor-);
+    
+}   
+.lista__item {
+    font-size: 32px;
+    color: var(--Branco-cor-);
+    
+}
+.rodape {
+    display: grid;
+    color: var(--Branco-cor-);
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+
+ }
+.sexta__imagem {
+    width: 102px;
+    padding: 15px;
+
+}
+.sexta__lista {
+    display: flex;
+    font-size: 16px;
+    list-style-type: none;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.descricao__elemento {
+    color: var(--Branco-cor-);
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+
+}
+.sexta__descricao {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.sexta__lista a:hover {
+    color: var(--Botao-azul-);
+
+}
+.sexta__lista a:active {
+    color: #000080;
+
+}
+.botao__principal:hover {
+    color: var(--Botao-azul-);
+    background-color: var(--Branco-cor-);
+
+}
+.terceiro__botao :hover {
+    color: var(--Botao-azul-);
+    background-color: var(--Branco-cor-s);
+
+}@import url(https://fonts.google.com/specimen/Inter);
+
+:root {
+    --Branco-cor-: #FFFFFF;
+    --Cinza-cor-: #c0c0c0;
+    --Botao-azul-: #167df7;
+    --cor-de-fundo: #000000;
+    --font-inter: 'Inter';
+
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--Branco-cor-);
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 400;
+
+ }   
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.principal {
+    color: var(--Branco-cor-);
+    background-image: url(Minhas\ Imagens/fotonova.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+
+}
+.botao__principal{
+    background-color: var(--Botao-azul-);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--Branco-cor-);
+    display:block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 1em;
+    text-align: center;   
+
+}
+.segundoBotao__principal {
+    background-color: transparent;
+    border: 2px solid var(--Branco-cor-);
+
+}
+.titulo__principal {
+    font-size: 28px;
+    font-weight: 700;
+}
+.imagem__principal {
+    margin: 1em 0 2em 0;
+
+}
+.div__principal {
+    margin: 0 4em;
+
+}
+.descricao__principal {
+    font-size: 12px;
+    color: var(--Cinza-cor-);
+
+}
+.segunda__imagem {
+    width: 80%;
+
+}
+.segunda__section {
+    align-items: center;  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;    
+
+}
+.segundo__titulo {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.segunda__descricao {
+    font-size: 16px;
+
+}
+.terceira__section{
+    grid-template-columns: 50% 50%;
+    display: grid;
+    padding: 10%;
+    align-items: center;
+
+}
+.terceira__descricao {
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+
+}
+.terceiro__botao {
+    margin-top: 1em;
+    padding: 2em;
+    display: inline-block;
+
+}
+.terceira__imagem {
+  align-items: center;
+  width: 80%;
+  padding: 15%;
+
+}
+.quarta__section{
+    padding: 10%;
+    margin: 40px; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
+}
+.quarta__imagem{
+    width: 80%;
+
+}
+.quarto__titulo{
+    font-size: 48px;
+
+}
+.quarta__descricao{
+    font-size: 16px;
+
+}
+.quinta__section {
+    margin: 20%;
+    text-align:  center;
+
+}
+.lista__principal {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 4em 0;
+
+}
+.quinto__titulo {
+    text-align: center;
+    font-size: 48px;
+    color: var(--Branco-cor-);
+    
+}   
+.lista__item {
+    font-size: 32px;
+    color: var(--Branco-cor-);
+    
+}
+.rodape {
+    display: grid;
+    color: var(--Branco-cor-);
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+
+ }
+.sexta__imagem {
+    width: 102px;
+    padding: 15px;
+
+}
+.sexta__lista {
+    display: flex;
+    font-size: 16px;
+    list-style-type: none;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.descricao__elemento {
+    color: var(--Branco-cor-);
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+
+}
+.sexta__descricao {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.sexta__lista a:hover {
+    color: var(--Botao-azul-);
+
+}
+.sexta__lista a:active {
+    color: #000080;
+
+}
+.botao__principal:hover {
+    color: var(--Botao-azul-);
+    background-color: var(--Branco-cor-);
+
+}
+.terceiro__botao :hover {
+    color: var(--Botao-azul-);
+    background-color: var(--Branco-cor-s);
 
 }
